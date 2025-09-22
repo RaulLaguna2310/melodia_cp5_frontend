@@ -5,7 +5,7 @@ Landing page desenvolvida para apresentar o **Melodia**, um aplicativo de músic
 ## 🚀 Sobre o projeto
 O site foi construído com foco em **design moderno, interatividade e responsividade**, trazendo informações sobre o app, seus benefícios, funcionalidades e espaço de interação com usuários. Além disso, conta com recursos de áudio e navegação fluida entre seções.  
 
-## Itegrantes do Projeto
+## Integrantes do Projeto
 - Henrique Farah Brigo, 563323
 - Piettra Boschini Sattolo, 562538
 - Raul Laguna Arboleya Andrade, 562684

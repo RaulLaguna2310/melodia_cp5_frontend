@@ -36,9 +36,11 @@
           explorar novos artistas, criar playlists únicas, acompanhar tendências
           e mergulhar em um universo sonoro feito sob medida para o seu gosto.
           Intuitivo, moderno e dinâmico, o Melodia conecta você à sua trilha
-          sonora em qualquer momento do dia.
+          sonora em qualquer momento do dia. Preparamos uma prévia para você que
+          está ansioso para utilizar nosso aplicativo!
         </p>
         <button
+          id="cta-button"
           class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 px-4 sm:px-6 md:px-8 lg:px-10 py-2 sm:py-3 md:py-4 lg:py-5 rounded-full transition CTA"
         >
           Ouvir Agora
@@ -52,6 +54,9 @@
         />
       </div>
     </section>
+
+    <!-- Elemento de áudio oculto -->
+    <audio id="cta-audio" src="./assets/audios/Quick Metal Riff 1.mp3"></audio>
 
     <!-- Benefícios -->
     <section
@@ -312,7 +317,7 @@
           <div
             class="flex items-center gap-4 p-4 bg-white rounded-lg shadow-md card-depo"
           >
-            <i class="fa-solid fa-user fa-2xl" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-user fa-2xl" style="color: #63e6be"></i>
             <div>
               <h5 class="text-lg font-semibold">Mariana Souza</h5>
               <p class="text-sm text-gray-500">Usuária</p>
@@ -328,7 +333,7 @@
           <div
             class="flex items-center gap-4 p-4 bg-white rounded-lg shadow-md card-depo"
           >
-            <i class="fa-solid fa-user fa-2xl" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-user fa-2xl" style="color: #63e6be"></i>
             <div>
               <h5 class="text-lg font-semibold">Lucas Almeida</h5>
               <p class="text-sm text-gray-500">Músico Independente</p>
@@ -345,7 +350,7 @@
           <div
             class="flex items-center gap-4 p-4 bg-white rounded-lg shadow-md card-depo"
           >
-            <i class="fa-solid fa-user fa-2xl" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-user fa-2xl" style="color: #63e6be"></i>
             <div>
               <h5 class="text-lg font-semibold">Camila Ribeiro</h5>
               <p class="text-sm text-gray-500">Estudante</p>
@@ -361,7 +366,7 @@
           <div
             class="flex items-center gap-4 p-4 bg-white rounded-lg shadow-md card-depo"
           >
-            <i class="fa-solid fa-user fa-2xl" style="color: #63E6BE;"></i>
+            <i class="fa-solid fa-user fa-2xl" style="color: #63e6be"></i>
             <div>
               <h5 class="text-lg font-semibold">Ricardo Fernandes</h5>
               <p class="text-sm text-gray-500">Produtor Musical</p>
@@ -390,8 +395,8 @@
         <p
           class="text-base sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-6 md:mb-8"
         >
-          Poderia nos enviar seu endereço de email, vamos utilizá-lo para futuras
-          campanhas de marketing. Claro, apenas se quiser!
+          Poderia nos enviar seu endereço de email, vamos utilizá-lo para
+          futuras campanhas de marketing. Claro, apenas se quiser!
         </p>
       </div>
       <form class="flex flex-col gap-4 w-full sm:w-1/2">
@@ -406,7 +411,9 @@
           />
         </div>
         <div>
-          <label for="email" class="block text-sm font-medium text-gray-700 mb-1"
+          <label
+            for="email"
+            class="block text-sm font-medium text-gray-700 mb-1"
             >Email</label
           >
           <input
@@ -427,7 +434,7 @@
     <!-- Modal de Confirmação -->
     <div
       id="confirmation-modal"
-      class="hidden fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
+      class="hidden fixed flex inset-0 items-center justify-center bg-black bg-opacity-50"
     >
       <div class="bg-white p-6 rounded-lg shadow-lg text-center max-w-sm">
         <h2 class="text-xl font-bold mb-4 titulo">Formulário Enviado!</h2>
@@ -445,7 +452,9 @@
 
     <!-- Footer -->
     <footer class="bg-pri-preto-azulado text-neuCl-cinza-claro py-6">
-      <div class="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-6 px-4">
+      <div
+        class="max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-6 px-4"
+      >
         <!-- Informações de Contato -->
         <div class="text-center sm:text-left">
           <h3 class="text-lg font-bold mb-2 titulo-contato">Contato</h3>
@@ -459,27 +468,25 @@
             href="https://www.facebook.com/?locale=pt_BR"
             class="transition icon-rs"
           >
-            <i class="fa-brands fa-facebook fa-lg" style="color: #63E6BE;"></i>
+            <i class="fa-brands fa-facebook fa-lg" style="color: #63e6be"></i>
           </a>
           <a
             href="https://www.instagram.com/accounts/login/"
             class="transition icon-rs"
           >
-            <i class="fa-brands fa-instagram fa-lg" style="color: #63E6BE;"></i>
+            <i class="fa-brands fa-instagram fa-lg" style="color: #63e6be"></i>
           </a>
           <a
             href="https://www.tiktok.com/login?redirect_url=https%3A%2F%2Fwww.tiktok.com%2F%40iam.lakas%2Fvideo%2F7547575287681142017%3F_r%3D1%26_t%3DZM-8zcpesRIWAw&lang=en&enter_method=mandatory"
             class="transition icon-rs"
           >
-            <i class="fa-brands fa-tiktok fa-lg" style="color: #63E6BE;"></i>
+            <i class="fa-brands fa-tiktok fa-lg" style="color: #63e6be"></i>
           </a>
         </div>
 
         <!-- Política de Privacidade -->
         <div class="text-center sm:text-right">
-          <span class="text-sm pol-priv">
-            Política de Privacidade
-          </span>         
+          <span class="text-sm pol-priv"> Política de Privacidade </span>
         </div>
       </div>
     </footer>

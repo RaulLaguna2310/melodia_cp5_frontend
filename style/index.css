@@ -33,6 +33,10 @@
   color: var(--neuEs-cinza-grafite);
 }
 
+body {
+    background-color: var(--pri-preto-azulado);
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -68,4 +72,55 @@ section p {
   background-color: var(--dest-verde-neon);
   color: var(--pri-preto-azulado);
   animation: none;
+}
+
+img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+section h3 {
+  color: var(--sec-lilas-futurista);
+  font-family: "Nunito", sans-serif;
+}
+
+section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-lista {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  color: var(--neuCl-cinza-claro);
+  font-family: "Quicksand", sans-serif;
+  transition: transform 0.3s ease; 
+}
+
+.card-lista:hover {
+  transform: scale(1.05); 
+}
+
+.card-lista ul li {
+  color: var(--neuCl-cinza-claro);
+  margin-bottom: 0.5rem; 
+  font-family: "Quicksand", sans-serif;
+}
+
+#card-lista-1 {
+  background: linear-gradient(135deg, #0a0f1e, #1f0b52); 
+}
+
+#card-lista-2 {
+  background: linear-gradient(135deg, #1f2937, #292a2c); 
+}
+
+section div h3 {
+  margin-bottom: 0.5rem;
 }

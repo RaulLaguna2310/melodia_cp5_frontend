@@ -18,14 +18,19 @@
     <title>Melodia - Checkpoint 5</title>
   </head>
   <body>
+    <!-- Hero Section -->
     <section
-      class="flex flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-between p-4 sm:p-6 md:p-8 lg:p-10 gap-4 sm:gap-6 md:gap-8 lg:gap-10"
+      class="flex flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-between p-6 sm:p-8 md:p-10 lg:p-12 gap-6 sm:gap-8 md:gap-10 lg:gap-12 max-w-5xl mx-auto"
     >
       <div class="left-content flex-1">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 titulo">
+        <h1
+          class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 titulo"
+        >
           Melodia
         </h1>
-        <p class="text-base sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-6 md:mb-8">
+        <p
+          class="text-base sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-6 md:mb-8"
+        >
           Melodia é um aplicativo de música desenvolvido para quem busca uma
           experiência imersiva, simples e personalizada. Com ele, você pode
           explorar novos artistas, criar playlists únicas, acompanhar tendências
@@ -39,11 +44,58 @@
           Ouvir Agora
         </button>
       </div>
-      <img
-        src="./assets/imagens/Interface_do_app_Melodia.png"
-        alt="Imagem em destaque"
-        class="flex-1 rounded-lg shadow-md w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5"
-      />
+      <div class="flex-1 w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/5">
+        <img
+          src="./assets/imagens/Interface_do_app_Melodia.png"
+          alt="Imagem em destaque"
+          class="rounded-lg shadow-md w-full"
+        />
+      </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section
+      class="flex flex-col sm:flex-row md:flex-row lg:flex-row items-center justify-between p-6 sm:p-8 md:p-10 lg:p-12 gap-6 sm:gap-8 md:gap-10 lg:gap-12 max-w-5xl mx-auto"
+    >
+      <div class="flex-1">
+        <h1
+          class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 titulo"
+        >
+          Benefícios
+        </h1>
+        <p
+          class="text-base sm:text-lg md:text-xl lg:text-2xl mb-4 sm:mb-6 md:mb-8"
+        >
+          Separamos alguns benefícios do aplicativo Melodia que podem ser úteis
+          tanto para usuários comuns quanto para artistas que desejam lançar
+          suas músicas em nossa plataforma!
+        </p>
+        <div class="flex flex-col sm:flex-row gap-6">
+          <div class="flex-1 bg-neuCl-cinza-claro p-4 rounded-lg shadow-md card-lista" id="card-lista-1">
+            <h3 class="text-xl sm:text-2xl font-semibold mb-2" style="color: #63E6BE;">
+              Para Usuários
+            </h3>
+            <ul>
+              <li><i class="fa-solid fa-bolt fa-sm" style="color: #63E6BE;"></i> Acesso rápido a músicas e playlists personalizadas conforme seu gosto.</li>
+              <li><i class="fa-solid fa-magnifying-glass" style="color: #63E6BE;"></i> Descoberta de novos artistas e gêneros de forma intuitiva.</li>
+              <li><i class="fa-solid fa-brain fa-sm" style="color: #63E6BE;"></i> Experiência imersiva com design moderno e fácil de usar.</li>
+              <li><i class="fa-solid fa-play" style="color: #63E6BE;"></i> Possibilidade de criar e compartilhar playlists exclusivas.</li>
+            </ul>
+          </div>
+
+          <div class="flex-1 bg-neuCl-cinza-claro p-4 rounded-lg shadow-md card-lista" id="card-lista-2">
+            <h3 class="text-xl sm:text-2xl font-semibold mb-2" style="color: #63E6BE;">
+              Para Artistas
+            </h3>
+            <ul>
+              <li><i class="fa-solid fa-eye" style="color: #63E6BE;"></i> Maior visibilidade em uma plataforma dedicada à descoberta musical.</li>
+              <li><i class="fa-solid fa-gear" style="color: #63E6BE;"></i> Ferramentas para engajar e se conectar diretamente com os fãs.</li>
+              <li><i class="fa-solid fa-chart-simple" style="color: #63E6BE;"></i> Estatísticas detalhadas sobre ouvintes e alcance das músicas.</li>
+              <li><i class="fa-solid fa-rocket" style="color: #63E6BE;"></i> Espaço para promover lançamentos e trabalhos autorais.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>

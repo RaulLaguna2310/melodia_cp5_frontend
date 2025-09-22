@@ -80,6 +80,20 @@ section p {
   animation: none;
 }
 
+.form-btn {
+  background-color: var(--sec-lilas-futurista);
+  animation: pulse 2s infinite;
+  font-family: "Quicksand", sans-serif;
+  color: var(--neuCl-cinza-claro);
+  font-weight: 500;
+}
+
+.form-btn:hover {
+  background-color: var(--dest-verde-neon);
+  color: var(--pri-preto-azulado);
+  animation: none;
+}
+
 img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
@@ -180,4 +194,61 @@ section .grid div p {
 
 .card-depo:hover {
   transform: scale(1.05);
+}
+
+input {
+  font-family: "Quicksand", sans-serif;
+  color: var(--neuEs-cinza-grafite);
+  background-color: var(--neuCl-cinza-claro);
+}
+
+input::placeholder {
+  color: rgba(31, 41, 55, 0.5); /* Placeholder text color */
+}
+
+button {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+
+#confirmation-modal {
+  z-index: 1000;
+}
+
+#confirmation-modal .titulo {
+  font-family: "Nunito", sans-serif;
+  color: var(--pri-preto-azulado);
+}
+
+#confirmation-modal p {
+  font-family: "Quicksand", sans-serif;
+  color: var(--neuEs-cinza-grafite);
+}
+
+footer {
+  background-color: var(--pri-preto-azulado);
+  color: var(--neuCl-cinza-claro);
+}
+
+footer h3 {
+  font-family: "Nunito", sans-serif;
+  color: var(--neuCl-cinza-claro);
+}
+
+footer p,
+footer a {
+  font-family: "Quicksand", sans-serif;
+  color: var(--neuCl-cinza-claro);
+}
+
+footer a:hover {
+  color: var(--dest-verde-neon);
+}
+
+.titulo-contato {
+  color: var(--sec-lilas-futurista);
+}
+
+.pol-priv {
+  color: var(--sec-lilas-futurista);
 }

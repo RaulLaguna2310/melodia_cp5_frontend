@@ -56,8 +56,14 @@ section {
   font-family: "Nunito", sans-serif;
 }
 
+section h3 {
+  color: var(--sec-lilas-futurista);
+  font-family: "Nunito", sans-serif;
+}
+
 section p {
   font-family: "Quicksand", sans-serif;
+  line-height: 1.8;
 }
 
 .CTA {
@@ -83,9 +89,14 @@ img:hover {
   transform: scale(1.05);
 }
 
-section h3 {
-  color: var(--sec-lilas-futurista);
-  font-family: "Nunito", sans-serif;
+section img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+section img:hover {
+  transform: scale(1.05);
 }
 
 section ul {

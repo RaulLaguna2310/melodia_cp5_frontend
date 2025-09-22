@@ -17,3 +17,55 @@
   font-weight: <weight>;
   font-style: normal;
 } */
+
+@import url(animacoes.css);
+
+:root {
+  --pri-preto-azulado: #0a0f1e;
+  --sec-lilas-futurista: #8b5cf6;
+  --dest-verde-neon: #06d6a0;
+  --neuCl-cinza-claro: #e5e7eb;
+  --neuEs-cinza-grafite: #1f2937;
+}
+
+* {
+  margin: 0;
+  color: var(--neuEs-cinza-grafite);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 2rem auto;
+  line-height: 1.6;
+  text-align: left;
+  background-color: var(--neuCl-cinza-claro);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.titulo {
+  color: var(--pri-preto-azulado);
+  font-family: "Nunito", sans-serif;
+}
+
+section p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.CTA {
+  background-color: var(--sec-lilas-futurista);
+  animation: pulse 2s infinite;
+  font-family: "Quicksand", sans-serif;
+  color: var(--neuCl-cinza-claro);
+  font-weight: 500;
+}
+
+.CTA:hover {
+  background-color: var(--dest-verde-neon);
+  color: var(--pri-preto-azulado);
+  animation: none;
+}

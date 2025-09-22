@@ -252,3 +252,28 @@ footer a:hover {
 .pol-priv {
   color: var(--sec-lilas-futurista);
 }
+
+#menu-button {
+  background-color: var(--sec-lilas-futurista);
+  opacity: 0.8; 
+}
+
+#menu-button:hover {
+  background-color: var(--dest-verde-neon);
+  opacity: 1; 
+}
+
+.preview-btn {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  background-color: var(--sec-lilas-futurista);
+  color: var(--neuCl-cinza-claro);
+  border-radius: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.preview-btn:hover {
+  background-color: var(--dest-verde-neon);
+  color: var(--pri-preto-azulado);
+  transform: scale(1.05);
+}
